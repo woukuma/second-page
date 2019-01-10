@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: black;
+    width: 1440px;
+}
+
+
+
+.top img{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.black {
+    position: absolute;
+    top: -500px;
+    left: 0;
+    width: 1440px;
+    height: 1500px;
+    z-index: 9;
+    background-color: #000;
+    opacity: 1;
+    animation: backgroundfill;
+    animation-delay: 4.5s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes backgroundfill {
+    0% {
+        opacity: 1;
+        z-index: 10;
+        color: #000;
+    }
+
+    100% {
+        opacity: 0;
+        z-index: 10;
+    }
+}
+
+
+
+.sora h1 {
+    font-weight: 1000;
+    font-size: 50px;
+    z-index: 10;
+    color: #fff;
+
+}
+
+.sora {
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    z-index: 9;
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+
+.sora:before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    z-index: 9;
+    height: 1px;
+    width: 900px;
+    opacity: 0;
+}
+
+.sora:before {
+    animation: bottomAnim 2.5s linear 1s 1;
+    animation-fill-mode: both;
+    z-index: 9;
+    opacity: 1;
+}
+
+
+@keyframes bottomAnim {
+    0% {
+        left: -1000px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+
+
+
+.shape {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1440px solid black;
+    border-bottom: 400px solid transparent;
+    z-index: 7;
+    opacity: 0.4;
+}
+
+
+
+
+.movie img {
+    position: absolute;
+    width: 280px;
+    top: 465px;
+    right: 430px;
+    z-index: 6;
+    opacity: 0.8;
+
+}
+
+.movie {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
+
+
+.movie h1 {
+    font-weight: 400;
+    margin-left: 320px;
+    margin-top: 450px;
+    font-size: 100px;
+    color: white;
+    z-index: 7;
+    position: relative;
+    right: 55px;
+}
+
+.movie h2 {
+    font-weight: 750;
+    color: #fff;
+    margin-left: 520px;
+    font-size: 175px;
+    z-index: 7;
+    position: relative;
+    top: -65px;
+    right: 45px;
+}
+
+
+
+.cover-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 812px;
+    background: url(../movieCover.png);
+    text-align: center;
+    z-index: 6;
+}
+
+

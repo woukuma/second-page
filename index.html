@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>megmilk2</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Crimson+Text|Merriweather|Oswald" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <script type="text/javascript">
+        $(function() {
+
+            $('a[href^=#]').click(function() {
+
+                var speed = 1000;
+
+                var href = $(this).attr("href");
+
+                var target = $(href == "#" || href == "" ? 'html' : href);
+
+                var position = target.offset().top;
+
+                $("html, body").animate({
+                    scrollTop: position
+                }, speed, "swing");
+
+                return false;
+
+            });
+
+        });
+
+    </script>
+</head>
+
+<body>
+<div class="top">
+      <img src="r6sa.png" alt="">
+</div>
+    
+    <div class="sora">
+        <h1>We are E-sports team Meg-M1Lx!</h1>
+    </div>
+    <div class="shape">
+    </div>
+
+
+    <div class="movie">
+        <img src="flag2.png" alt="">
+        <h1>E-sports team</h1>
+        <h2>Meg-M1Lx</h2>
+
+        <div class="cover-img"></div>
+    </div>
+
+</body>
+
+</html>
