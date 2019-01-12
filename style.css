@@ -129,7 +129,8 @@ body {
 }
 
 .movie {
-    height: 100vh;
+    height: 528px;
+    ;
     width: 100%;
     background-size: cover;
     background-repeat: repeat;
@@ -170,4 +171,185 @@ body {
     background: url(../movieCover.png);
     text-align: center;
     z-index: 6;
+}
+
+
+.nav {
+    position: relative;
+    width: 90%;
+    height: 50px;
+    color: #fff;
+    margin: auto;
+    border-bottom: 2px white solid;
+
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    font-size: 30px;
+    margin: 0 50px 0 50px;
+    display: inline;
+}
+
+
+.back {
+    position: relative;
+    top: 50px;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.white {
+    position: relative;
+    background-color: #fff;
+    width: 600px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: right;
+
+}
+
+.base {
+    position: relative;
+
+
+}
+
+.base h1 {
+    font-size: 60px;
+
+}
+
+.base h2 {}
+
+
+.base img {
+    position: relative;
+    float: left;
+    width: 200px;
+
+}
+
+.white2 {
+    position: relative;
+    background-color: #fff;
+    width: 600px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.base2 {
+    position: relative;
+}
+
+.base2 img {
+    position: relative;
+    width: 200px;
+    float: left;
+}
+
+
+.white3 {
+    position: relative;
+    background-color: #fff;
+    width: 600px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: right;
+}
+
+.base3 {
+    position: relative;
+}
+
+.base3 h1 {}
+
+.base3 h2 {}
+
+.base3 img {
+    position: relative;
+    float: left;
+    width: 200px;
+}
+
+.white4 {
+    position: relative;
+    background-color: #fff;
+    width: 600px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.bas4 {
+    position: relative;
+}
+
+.base4 h1 {}
+
+.base4 h2 {}
+
+.base4 img {
+    position: relative;
+    float: left;
+    width: 200px;
+}
+
+.white5 {
+    position: relative;
+    background-color: #fff;
+    width: 600px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: right;
+}
+
+.bas5 {
+    position: relative;
+}
+
+.base5 h1 {}
+
+.base5 h2 {}
+
+.base5 img {
+    position: relative;
+    float: left;
+    width: 200px;
+}
+
+
+
+.white6 {
+    position: relative;
+    background-color: #fff;
+    width: 600px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.bas6 {
+    position: relative;
+}
+
+.base6 h1 {}
+
+.base6 h2 {}
+
+.base6 img {
+    position: relative;
+    float: left;
+    width: 200px;
 }
