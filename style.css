@@ -181,12 +181,17 @@ body {
     color: #fff;
     margin: auto;
     border-bottom: 2px white solid;
-
 }
 
 .nav ul {
     display: flex;
     justify-content: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    
 }
 
 .nav li {
@@ -223,11 +228,12 @@ body {
 }
 
 .base h1 {
-    font-size: 60px;
+    font-size: 70px;
 
 }
 
-.base h2 {}
+.base h2 {
+}
 
 
 .base img {
@@ -256,100 +262,7 @@ body {
     float: left;
 }
 
-
-.white3 {
-    position: relative;
-    background-color: #fff;
-    width: 600px;
-    height: 230px;
-    margin-left: 30px;
-    margin-top: 10px;
-    float: right;
+.base2 h1{
+         font-size: 70px;
 }
 
-.base3 {
-    position: relative;
-}
-
-.base3 h1 {}
-
-.base3 h2 {}
-
-.base3 img {
-    position: relative;
-    float: left;
-    width: 200px;
-}
-
-.white4 {
-    position: relative;
-    background-color: #fff;
-    width: 600px;
-    height: 230px;
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-.bas4 {
-    position: relative;
-}
-
-.base4 h1 {}
-
-.base4 h2 {}
-
-.base4 img {
-    position: relative;
-    float: left;
-    width: 200px;
-}
-
-.white5 {
-    position: relative;
-    background-color: #fff;
-    width: 600px;
-    height: 230px;
-    margin-left: 30px;
-    margin-top: 10px;
-    float: right;
-}
-
-.bas5 {
-    position: relative;
-}
-
-.base5 h1 {}
-
-.base5 h2 {}
-
-.base5 img {
-    position: relative;
-    float: left;
-    width: 200px;
-}
-
-
-
-.white6 {
-    position: relative;
-    background-color: #fff;
-    width: 600px;
-    height: 230px;
-    margin-left: 30px;
-    margin-top: 10px;
-
-}
-
-.bas6 {
-    position: relative;
-}
-
-.base6 h1 {}
-
-.base6 h2 {}
-
-.base6 img {
-    position: relative;
-    float: left;
-    width: 200px;
-}
